@@ -130,7 +130,7 @@ This strange behavior, though, might have an explanation. LS methods with inequa
 - KNN classifier not only has the best overall success rate, but also the lowest error
 - On the other hand, the worst performing classifier seems to be the Minimum Euclidean Distance classifier
 - It is clear from the graph above that it ranks last in terms of error and success rate
-- The same conclusion can, also, be drawn if we look at its confusion matrix in the [notebook](https://github.com/sapaladas/hyperspectral_images_processing/blob/main/hyperspectral_images_processing.ipynb)
+- The same conclusion can, also, be drawn if we look at its confusion matrix in the [notebook](https://github.com/sapaladas/msc_data_science/blob/main/q2-machine_learning_and_computational_statistics/hyperspectral_images_processing/main.ipynb)
 - It has more non-diagonal values than the other classifiers, which means that it has more misclassified data
 
 ## *Conclusion*
