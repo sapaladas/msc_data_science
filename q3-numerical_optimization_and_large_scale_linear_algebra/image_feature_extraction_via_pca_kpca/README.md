@@ -18,7 +18,7 @@
 
 - In this project, we replicate the example 3.2.2 of the following paper
 
-> ***[Kernel Principal Component Analysis and its Applications in Face Recognition and Active Shape Models](https://github.com/sapaladas/image_feature_extraction_via_pca_kpca/blob/main/kernel_principal_component_analysis.pdf)***  
+> ***[Kernel Principal Component Analysis and its Applications in Face Recognition and Active Shape Models](https://github.com/sapaladas/msc_data_science/blob/main/q3-numerical_optimization_and_large_scale_linear_algebra/image_feature_extraction_via_pca_kpca/readings/kernel_principal_component_analysis.pdf)***  
 > *Quan Wang, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180 USA*  
 > *arXiv:1207.3538 \[cs.CV\], 2012*
 
