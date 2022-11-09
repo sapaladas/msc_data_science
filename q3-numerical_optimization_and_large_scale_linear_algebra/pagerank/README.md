@@ -68,7 +68,7 @@
 
 ## *Results*
 
-- Based on the paper [Deeper Inside PageRank](https://github.com/sapaladas/pagerank/blob/main/pagerank.pdf), the PageRank, using each method, can be calculated as follows:
+- Based on the paper [Deeper Inside PageRank](https://github.com/sapaladas/msc_data_science/blob/main/q3-numerical_optimization_and_large_scale_linear_algebra/pagerank/readings/pagerank.pdf), the PageRank, using each method, can be calculated as follows:
 - Power Method:  $x^{(k)T} = \alpha x^{(k-1)T} P + (\alpha x^{(k-1)T} a + (1-\alpha))v^T $
 - Gauss-Seidel Method:  $\pi^{T}=(v_{1}^{T}(I-\alpha P_{11})^{-1} | \alpha v_{1}^{T}(I-\alpha P_{11})^{-1} P_{12} + v_{2}^{T}) $
 
