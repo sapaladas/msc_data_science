@@ -20,7 +20,7 @@ MSDS
 ├── Quarter 4
 │   ├── # Legal, Ethical and Policy Issues in Data Science
 │   ├── # Data Visualization and Communication
-│   └── # Advanced Customer Analytics
+│   └── # Advanced Customer Analytics (e)
 ├── Quarter 5
 │   ├── # elective 1...
 │   ├── # elective 2...
