@@ -32,7 +32,7 @@
 - We split the data into training $(70\\%)$, validation $(15\\%)$ and test $(15\\%)$ set
 - Furthermore, we transformed the data using text vectorization and dimensionality reduction techniques
 - We displayed baseline results using two classifiers
-- Specifically, we used a dummy classifier and the best classifier from [text_classification_with_basic_models](https://github.com/sapaladas/text_classification_with_basic_models)
+- Specifically, we used a dummy classifier and the best classifier from [text_classification_with_basic_models](https://github.com/sapaladas/msc_data_science/tree/main/q3-text_analytics/text_classification_with_basic_models)
 - Then, we tuned the hyperparameters of the MLP model using `KerasClassifier` and `RandomizedSearchCV`
 - In particular, we tuned the number of hidden layers, the number of neurons and the dropout rate
 - We trained the MLP model using the `ModelCheckpoint` callback to save the best weights for each node
@@ -139,7 +139,7 @@ df.review = df.review.apply(preprocess_data)
 ### Baseline Results
 
 - We displayed baseline results using two classifiers
-- Specifically, we used a dummy classifier and the best classifier from [text_classification_with_basic_models](https://github.com/sapaladas/text_classification_with_basic_models)
+- Specifically, we used a dummy classifier and the best classifier from [text_classification_with_basic_models](https://github.com/sapaladas/msc_data_science/tree/main/q3-text_analytics/text_classification_with_basic_models)
 - Below you can find the results obtained from the baseline classifiers
 
 ![dummy classifier](./images/auc_curves_DummyClassifier.svg)
