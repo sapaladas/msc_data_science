@@ -21,7 +21,7 @@ library(corrplot)
 library(rgdal)
 
 # -------------------------------------------------------------------------------
-# Define functions to read the data
+# Define function to read the data
 # -------------------------------------------------------------------------------
 
 # function to read excel files
@@ -30,13 +30,6 @@ read_data_from_excel_format = function(path, sheet, columns, num_columns, skip =
   df = df[-1,]
   df = pivot_longer(df, cols = starts_with('2'))
   colnames(df) = columns
-  df[num_columns] = sapply(df[num_columns], function(x) as.numeric(as.character(x)))
-  return(df)
-}
-
-# function to read csv files
-read_data_from_csv_format = function(path, num_columns) {
-  df = read.csv(path, header = TRUE)
   df[num_columns] = sapply(df[num_columns], function(x) as.numeric(as.character(x)))
   return(df)
 }
@@ -454,5 +447,3 @@ ggplot(data = df_gdp, aes(x = x, y = y)) +
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         panel.background = element_rect(fill = '#E0E0E0', color = 'black'))
-
-###################################### END ######################################
