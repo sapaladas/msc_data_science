@@ -2,4 +2,5 @@
 
 ### *Projects*
 
-- *Scraping Glassdoor Reviews for Sentiment Analysis*
+- *Scraping and Summarizing Glassdoor Reviews for Sentiment Analysis*
+- *Predicting Telco Customer Churn*
