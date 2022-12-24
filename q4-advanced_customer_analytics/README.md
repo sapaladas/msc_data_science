@@ -1,4 +1,4 @@
-# Advanced Customer Analytics
+# *Advanced Customer Analytics*
 
 ### *Projects*
 
