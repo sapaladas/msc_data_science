@@ -1,4 +1,4 @@
-# Text Analytics
+# *Text Analytics*
 
 ### *Projects*
 
