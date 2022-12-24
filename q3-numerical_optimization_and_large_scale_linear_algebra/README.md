@@ -1,4 +1,4 @@
-# Numerical Optimization and Large Scale Linear Algebra
+# *Numerical Optimization and Large Scale Linear Algebra*
 
 ### *Projects*
 
