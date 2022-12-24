@@ -18,13 +18,12 @@ MSDS
 │   ├── # Numerical Optimization and Large Scale Linear Algebra
 │   └── # Text Analytics
 ├── Quarter 4
-│   ├── # Legal, Ethical and Policy Issues in Data Science
+│   ├── # Advanced Customer Analytics (e)
 │   ├── # Data Visualization and Communication
-│   └── # Advanced Customer Analytics (e)
+│   └── # Legal, Ethical and Policy Issues in Data Science
 ├── Quarter 5
-│   ├── # elective 1...
-│   ├── # elective 2...
-│   └── # elective 3...
+│   ├── # Data Mining (e)
+│   └── # Deep Learning (e)
 └── Quarter 6
     ├── # elective 1...
     ├── # elective 2...
