@@ -1,4 +1,4 @@
-# Machine Learning and Computational Statistics
+# *Machine Learning and Computational Statistics*
 
 ### *Projects*
 
