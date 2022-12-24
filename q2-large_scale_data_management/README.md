@@ -1,4 +1,4 @@
-# Large Scale Data Management
+# *Large Scale Data Management*
 
 ### *Projects*
 
