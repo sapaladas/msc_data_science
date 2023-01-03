@@ -5,7 +5,38 @@ import pandas as pd
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.neighbors import NearestCentroid
 
+# ------------------------------------------------------------------------------
+# Function to handle class imbalance using cluster centroids
+# ------------------------------------------------------------------------------
+
 def cluster_the_majority_class_and_keep_only_the_centroids(x_train:pd.DataFrame, y_train:pd.Series):
+    """
+    Methodology
+    -----------
+    - Let N be the number of samples in the minority class
+    - We will cluster the majority class into N clusters
+    - Then, we will find the centroids of each cluster
+    - We will use these centroids as the training data points for the majority class
+    - Hence, the two classes will now be equally balanced
+    - By using the centroids, the training data for the majority class will be more representative
+    - However, the dataset will become smaller
+    
+    Parameters
+    ----------
+    x_train : pd.DataFrame
+        The dataframe which contains the training instances.
+    y_train : pd.Series
+        The series which contains the respective training labels.
+
+    Returns
+    -------
+    x_train_balanced : pd.DataFrame
+        The dataframe which contains the cluster centroids as training instances.
+    y_train_balanced : pd.Series
+        The series which contains the respective training labels.
+    clusters : np.array
+        The clusters created from the majority class.
+    """
     
     # get the two classes and their values
     index1, value1 = y_train.value_counts().index[0], y_train.value_counts()[0]

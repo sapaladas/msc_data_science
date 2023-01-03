@@ -7,6 +7,10 @@ from sklearn.model_selection import StratifiedKFold, cross_validate, GridSearchC
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from sklearn.metrics import confusion_matrix, classification_report
 
+# ------------------------------------------------------------------------------
+# Function to cross validate the results of several models
+# ------------------------------------------------------------------------------
+
 def cross_validate_models(x_train:pd.DataFrame,
                           y_train:pd.Series,
                           models:list):
@@ -52,6 +56,10 @@ def cross_validate_models(x_train:pd.DataFrame,
 
     return cv_scores
 
+# ------------------------------------------------------------------------------
+# Function to fine tune the hyperparameters of several models
+# ------------------------------------------------------------------------------
+
 def grid_search_tune_models(x_train:pd.DataFrame,
                             y_train:pd.Series,
                             models:list,
@@ -90,6 +98,10 @@ def grid_search_tune_models(x_train:pd.DataFrame,
         gs_scores.loc[model[0], scoring] = best_score
 
     return gs_scores
+
+# ------------------------------------------------------------------------------
+# Function to make predictions using several models
+# ------------------------------------------------------------------------------
 
 def make_predictions(x_train:pd.DataFrame,
                      x_test:pd.DataFrame,
