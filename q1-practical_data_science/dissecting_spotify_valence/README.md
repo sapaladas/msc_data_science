@@ -1,4 +1,4 @@
-# Dissecting Spotify Valence
+# *Dissecting Spotify Valence*
 
 ![spotify](./images/banner.jpg)
 
