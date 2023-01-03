@@ -1,47 +1,36 @@
-# Athens Weather Analysis
+# *Athens Weather Analysis*
 
-*Practical Data Science*  
-*MSc in Data Science, Department of Informatics*  
-*Athens University of Economics and Business*
-
-![athens](./images/athens_image.jpg)
+![athens](./images/banner.jpg)
 
 ## *Table of Contents*
-1. [Introduction](#introduction)
-2. [Project Overview](#project-overview)
-3. [Data](#data)
-4. [Resources](#resources)
-5. [Analysis](#analysis)
+- [***Introduction***](#introduction)
+- [***Project Overview***](#project-overview)
+- [***Data***](#data)
+- [***Analysis***](#analysis)
 
 ## *Introduction*
 
-- Athens is the capital and largest city of Greece and one of the world's oldest cities
-- Athens is, also, known for its hot-summer Mediterranean climate and is the hottest city in mainland Europe
-- The dominant feature of Athens' climate is alternation between hot and dry summers and mild, wetter winters
-- With an avg. of 433mm of yearly precipitation, rainfall occurs largely between the months of October and April
+- Athens is the capital and largest city of Greece and one of the oldest cities in the world
+- Athens is also known for its warm Mediterranean summer climate and is the warmest city in continental Europe
+- The dominant feature of Athens' climate is the alternation between hot and dry summers and mild, wetter winters
+- With an average of 433mm of yearly precipitation, rainfall occurs largely between the months of October and April
 - July and August are the driest months when thunderstorms occur sparsely
 
 ## *Project Overview*
 
 - The scope of this project was to explore the weather in Athens over a period of more than 50 years (1955-2020)
-- For this purpose we used data collected from the Hellinikon meteorological station
 - The analysis was mainly focused on four themes:
-  - The *deviation of summer temperatures*
-  - The *evolution of daily temperatures*
-  - The *extreme temperature events*
-  - The *precipitation*
+  - *The deviation of summer temperatures*
+  - *The evolution of daily temperatures*
+  - *The extreme temperature events*
+  - *The precipitation*
 
 ## *Data*
 
-- The data were acquired from two sources:
-  - [National Oceanic and Atmospheric Administration's National Centers for Environmental Information](https://www.ncdc.noaa.gov/cdo-web/search)
-  - [Hellenic Data Service](https://data.hellenicdataservice.gr/dataset/66e1c19a-7b0e-456f-b465-b301a1130e3f)
+- The data were obtained from the following two sources:
+  - [*National Oceanic and Atmospheric Administration's National Centers for Environmental Information*](https://www.ncdc.noaa.gov/cdo-web/search)
+  - [*Hellenic Data Service*](https://data.hellenicdataservice.gr/dataset/66e1c19a-7b0e-456f-b465-b301a1130e3f)
 - The data included information on temperature, precipitation, humidity, wind speed and other characteristics
-
-## *Resources*
-
-- Packages: `numpy`, `pandas`, `matplotlib`, `seaborn`
-- Software: Jupyter Notebook
 
 ## *Analysis*
 
