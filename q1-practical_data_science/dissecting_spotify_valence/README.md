@@ -72,6 +72,11 @@
 
 ## *Predictions*
 
+- After the statistical analysis, we did some extra data preprocessing and feature engineering to improve the quality of our data
+- We also used `GridSearchCV` to fine-tune some of the hyperparameters of our models
+- Finally, we made predictions on both the original test set and a new sample of Spotify's top-streaming charts downloaded from [Zenodo](https://zenodo.org/record/4778563)
+- The results for each set can be seen below:
+
 | Regressors | MAE | RMSE | MSE | $R^{2}$ |
 | :--------- | :-: | :--: | :-: | :-----: |
 | `ExtraTrees` *(on test set)* | $0.132$ | $0.172$ | $0.030$ | $0.502$ |
