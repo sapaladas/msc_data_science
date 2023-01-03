@@ -9,12 +9,11 @@ from nltk.tokenize import sent_tokenize
 from collections import defaultdict
 
 # ------------------------------------------------------------------------------
-# Count word and doc frequency
+# Function to count word and doc frequency
 # ------------------------------------------------------------------------------
 
 def count_word_frequencies(reviews:list, stop_words:list, nlp:spacy.lang.en.English):
     """
-    
     Scope
     -----
     This function is used to count both word and doc frequency for each word included in the reviews.
@@ -30,13 +29,12 @@ def count_word_frequencies(reviews:list, stop_words:list, nlp:spacy.lang.en.Engl
 
     Returns
     -------
-    freq_word : TYPE
+    freq_word : dict
         Dictionary of word frequency.
-    freq_doc : TYPE
+    freq_doc : dict
         Dictionary of doc frequency.
-    df_concat : TYPE
+    df_concat : pd.DataFrame
         DataFrame containing both word and doc frequency.
-        
     """
     
     # initialize empty dicts
@@ -88,7 +86,7 @@ def count_word_frequencies(reviews:list, stop_words:list, nlp:spacy.lang.en.Engl
     return freq_word, freq_doc, df_concat
 
 # ------------------------------------------------------------------------------
-# Get top k distinct words
+# Function to get top k distinct words
 # ------------------------------------------------------------------------------
 
 def get_top_k_distinct_pros_and_cons_words(df1:pd.DataFrame,
@@ -99,7 +97,6 @@ def get_top_k_distinct_pros_and_cons_words(df1:pd.DataFrame,
                                            df2_word_freq_column:str='word_frequency',
                                            k:int=5):
     """
-    
     Scope
     -----
     This function is used to find the top k words that appear ONLY either in pros or cons.
@@ -123,11 +120,10 @@ def get_top_k_distinct_pros_and_cons_words(df1:pd.DataFrame,
 
     Returns
     -------
-    df1_only : TYPE
+    df1_only : pd.DataFrame
         DataFrame with top k words that appear only in df1.
-    df2_only : TYPE
+    df2_only : pd.DataFrame
         DataFrame with top k words that appear only in df2.
-        
     """
     
     # find the top k words that appear only in df1
@@ -145,7 +141,7 @@ def get_top_k_distinct_pros_and_cons_words(df1:pd.DataFrame,
     return df1_only, df2_only
 
 # ------------------------------------------------------------------------------
-# Get top k words appearing most frequently in each of two dataframes
+# Function to get top k words appearing most frequently in each of two dataframes
 # ------------------------------------------------------------------------------
 
 def get_top_k_mixed_pros_and_cons_words(df_pros:pd.DataFrame,
@@ -158,7 +154,6 @@ def get_top_k_mixed_pros_and_cons_words(df_pros:pd.DataFrame,
                                         df_cons_doc_freq_column:str='doc_frequency',
                                         k:int=5):
     """
-    
     Scope
     -----
     The scope of this function is to find the top k words that appear MOST FREQUENTLY either in pros or cons.
@@ -186,13 +181,12 @@ def get_top_k_mixed_pros_and_cons_words(df_pros:pd.DataFrame,
 
     Returns
     -------
-    top_k_pros : TYPE
+    top_k_pros : pd.DataFrame
         DataFrame with top k words that appear most frequently in df_pros.
-    top_k_cons : TYPE
+    top_k_cons : pd.DataFrame
         DataFrame with top k words that appear most frequently in df_cons.
-    merged : TYPE
-        DESCRIPTION.
-
+    merged : pd.DataFrame
+        Merged DataFrame of the aforementioned ones.
     """
     
     # rename pros columns

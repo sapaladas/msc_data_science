@@ -10,7 +10,6 @@ from fpdf import FPDF
 
 def openai_tldr_summarization(text:str):
     """
-
     Parameters
     ----------
     text : str
@@ -20,7 +19,6 @@ def openai_tldr_summarization(text:str):
     -------
     summary : str
         A summary of all the reviews.
-
     """
     
     # API key
@@ -52,7 +50,6 @@ def openai_tldr_summarization(text:str):
 
 def openai_grammar_correction(text:str):
     """
-
     Parameters
     ----------
     text : str
@@ -62,7 +59,6 @@ def openai_grammar_correction(text:str):
     -------
     summary : str
         A summary of all the reviews.
-
     """
     
     # API key
@@ -97,7 +93,6 @@ def create_pdf_report(no_reviews:int,
                       summary_pros:str,
                       summary_cons:str):
     """
-    
     Parameters
     ----------
     no_reviews : int
@@ -112,7 +107,6 @@ def create_pdf_report(no_reviews:int,
     Returns
     -------
     None.
-
     """
     
     # https://pyfpdf.readthedocs.io/en/latest/

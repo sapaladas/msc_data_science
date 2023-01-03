@@ -32,7 +32,6 @@ def get_most_similar_and_frequently_shown_sentences(sentences:str,
     -------
     similar_sentences
         List of the most similar and frequently shown sentences.
-
     """
     
     # split into sentences

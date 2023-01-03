@@ -12,7 +12,6 @@ import seaborn as sns
 def plot_number_of_reviews_per_rating(df:pd.DataFrame,
                                       rating_column:str='rating'):
     """
-
     Parameters
     ----------
     df : pd.DataFrame
@@ -25,7 +24,6 @@ def plot_number_of_reviews_per_rating(df:pd.DataFrame,
     Returns
     -------
     None.
-
     """
     
     # create the figure
@@ -56,7 +54,6 @@ def plot_number_of_reviews_and_avg_rating_per_year(df:pd.DataFrame,
                                                    date_column:str='date',
                                                    rating_column:str='rating'):
     """
-
     Parameters
     ----------
     df : pd.DataFrame
@@ -71,7 +68,6 @@ def plot_number_of_reviews_and_avg_rating_per_year(df:pd.DataFrame,
     Returns
     -------
     None.
-
     """
     
     # dummy (0,1) rating features
@@ -145,7 +141,6 @@ def plot_top_k_words(df:pd.DataFrame,
                      is_pros:bool=True,
                      is_distinct:bool=True):
     """
-    
     Parameters
     ----------
     df : pd.DataFrame
@@ -162,7 +157,6 @@ def plot_top_k_words(df:pd.DataFrame,
     Returns
     -------
     None.
-
     """
     
     # create the figure
