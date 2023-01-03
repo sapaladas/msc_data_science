@@ -2,4 +2,4 @@
 
 ### *Projects*
 
-- *Using Apache Spark to execute queries through RDD / DataFrame / SQL APIs (to be added)*
+- *Using Apache Spark to execute queries through RDD / DataFrame / SQL APIs (TBA)*
