@@ -23,7 +23,8 @@ MSDS
 │   └── # Legal, Ethical and Policy Issues in Data Science
 ├── Quarter 5
 │   ├── # Data Mining (e)
-│   └── # Deep Learning (e)
+│   ├── # Deep Learning (e)
+│   └── # Recommender Systems (e)
 └── Quarter 6
     ├── # elective 1...
     ├── # elective 2...
