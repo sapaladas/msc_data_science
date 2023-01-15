@@ -90,7 +90,7 @@ Q3_QueryCSV = "SELECT \
                  AND MoviesCSV.Revenue <> 0 \
                  AND MoviesCSV.Rel_Year <> 0 \
                GROUP BY 1,2 \
-               ORDER BY MAX(MoviesCSV.Revenue) DESC \
+               ORDER BY 3 DESC \
                LIMIT 1"
 
 Q3_Query_ResCSV = spark.sql(Q3_QueryCSV)
@@ -141,8 +141,8 @@ Q5_Query = "SELECT \
             FROM MoviesCSV \
             WHERE Rel_Year <> 0 \
               AND Revenue <> 0 \
-            GROUP BY Rel_Year \
-            ORDER BY Rel_Year DESC"
+            GROUP BY 1 \
+            ORDER BY 1 DESC"
 
 Q5_Query_Res = spark.sql(Q5_Query)
 Q5_Query_Res.show(n = 100, truncate = False)

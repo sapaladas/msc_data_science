@@ -72,7 +72,7 @@ Q3_QueryP = "SELECT \
                AND Movies.revenue <> 0 \
                AND Movies.release_year <> 0 \
              GROUP BY 1,2 \
-             ORDER BY MAX(Movies.revenue) DESC \
+             ORDER BY 3 DESC \
              LIMIT 1"
 
 Q3_Query_ResP = spark.sql(Q3_QueryP)
