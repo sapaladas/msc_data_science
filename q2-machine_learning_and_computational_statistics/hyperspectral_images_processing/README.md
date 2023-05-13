@@ -1,6 +1,6 @@
 # *Hyperspectral Images Processing*
 
-![hyperspectral image](./images/hyperspectral_image.jpeg)
+![hyperspectral image](./images/banner.jpeg)
 
 ## *Table of Contents*
 - [***Introduction***](#introduction)
