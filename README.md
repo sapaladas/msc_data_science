@@ -26,7 +26,6 @@ MSDS
 │   ├── # Deep Learning (e)
 │   └── # Recommender Systems (e)
 └── Quarter 6
-    ├── # elective 1...
-    ├── # elective 2...
-    └── # elective 3... 
+    ├── # Data Science Challenge (e)
+    └── # Optimization Techniques (e)
 ```
